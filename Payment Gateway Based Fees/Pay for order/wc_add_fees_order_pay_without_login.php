@@ -28,7 +28,7 @@ function wc_add_fees_order_pay_without_login( $allcaps, $caps, $args )
 
 			if( isset( $_REQUEST['add_fee_order'] ) && isset( $_REQUEST[ 'add_fee_pay' ] ) )
 			{
-				$order_id = isset( $args[0] ) ? $args[0] : null;
+				$order_id = $_REQUEST['add_fee_order'];
 
 				if( $order_id )
 				{
