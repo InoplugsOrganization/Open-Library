@@ -1,8 +1,9 @@
 <?php
 /**
+ * Allows to send customer the link "Customer Payment Page" from order page to pay without being logged in
+ *
  * based on https://www.businessbloomer.com/woocommerce-allow-to-pay-for-order-without-login/
  * Requested by WooCommerce Support ticket
- *
  * since 4.0
  */
 
