@@ -4,7 +4,7 @@
  *
  * @since 4.0.1
  * @param float $fixed_value
- * @param array $gateway				Payment gateways array
+ * @param array $gateway				selected payment gateway
  * @param float $total_cart				total cart value including tax before adding our fees !!!
  * @return float
  */
