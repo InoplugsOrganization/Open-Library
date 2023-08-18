@@ -2,8 +2,9 @@
 /**
  * Filter allows to adjust "fixed value to add" depending on gateway and/or total cart value
  *
+ * @since 4.0.1
  * @param float $fixed_value
- * @param array $gateway
+ * @param array $gateway				Payment gateways array
  * @param float $total_cart				total cart value including tax before adding our fees !!!
  * @return float
  */
