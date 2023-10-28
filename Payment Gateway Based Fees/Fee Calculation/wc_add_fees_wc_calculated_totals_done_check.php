@@ -16,7 +16,7 @@
  * @param string $context				'handler_wc_calculated_totals'
  * @return boolean						anything except
  */
-function custom_wc_add_fees_wc_fees_calculated_done_check( $check = false, $context = '' )
+function custom_wc_add_fees_wc_calculated_totals_done_check( $check = false, $context = '' )
 {
 	// currently only 1 $context - so we can set
 	$check = true;
@@ -24,4 +24,4 @@ function custom_wc_add_fees_wc_fees_calculated_done_check( $check = false, $cont
 	return $check;
 }
 
-add_filter( 'wc_add_fees_wc_fees_calculated_done_check', 'custom_wc_add_fees_wc_fees_calculated_done_check', 10, 2 );
+add_filter( 'wc_add_fees_wc_calculated_totals_done_check', 'custom_wc_add_fees_wc_calculated_totals_done_check', 10, 2 );
