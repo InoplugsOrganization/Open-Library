@@ -14,7 +14,7 @@
  * @since 4.1
  * @param boolean $check
  * @param string $context				'handler_wc_calculated_totals'
- * @return boolean						anything except
+ * @return boolean						anything except false
  */
 function custom_wc_add_fees_wc_calculated_totals_done_check( $check = false, $context = '' )
 {
